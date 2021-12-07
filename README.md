@@ -1,4 +1,4 @@
-# vueye-phone-input
+# vue3-phone-input
 
 ## Description :
 
@@ -8,14 +8,14 @@ It's a rich component that allows you to type a validate phone number, this comp
 
 ## Installation 
 
-    npm install vueye-phone-input --save
+    npm install vue3-phone-input --save
 
 ## DEMO 
 
 
-[LIVE DEMO](https://boussadjra.github.io/vueye-phone-input/)
+[LIVE DEMO](https://boussadjra.github.io/vue3-phone-input/)
 
-[Boilerplate](https://codesandbox.io/s/vueye-phone-input-l91zs?file=/src/App.vue)
+[Boilerplate](https://codesandbox.io/s/vue3-phone-input-l91zs?file=/src/App.vue)
 
 
 ## Usage 
@@ -25,7 +25,7 @@ It's a rich component that allows you to type a validate phone number, this comp
   <div class="w-full h-full p-16">
     <label for="phone">
       <div class="py-2 text-gray-600">Your phone number :</div>
-      <vueye-phone-input v-model="phone" outlined id="phone" />
+      <vue3-phone-input v-model="phone" outlined id="phone" />
     </label>
 
     <div class="max-w-md py-8">
@@ -38,7 +38,7 @@ It's a rich component that allows you to type a validate phone number, this comp
 
 <script >
 import { defineComponent } from "vue";
-import VueyePhoneInput from "vueye-phone-input";
+import VueyePhoneInput from "vue3-phone-input";
 
 export default defineComponent({
   name: "app",
